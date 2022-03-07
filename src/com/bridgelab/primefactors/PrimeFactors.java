@@ -10,7 +10,7 @@ public class PrimeFactors {
 		      System.out.print("Enter a number the Prime Number : ");
 		      int number = sc.nextInt();
 		     System.out.println("The Factors are : ");
-		      for(int i = 2; i< number; i++) {
+		      for(int i = 2; i*i < number; i++) {
 		         while(number%i == 0) {
 		            System.out.print(i+" ");
 		            number = number/i;
