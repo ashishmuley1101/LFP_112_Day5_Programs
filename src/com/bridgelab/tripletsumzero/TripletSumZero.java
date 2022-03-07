@@ -15,7 +15,7 @@ public class TripletSumZero {
 					int sum = firstNumber + secoundNumber + thirdNumber;
 					if (sum == 0) {
 						System.out.println(firstNumber + " " + secoundNumber + " " + thirdNumber);
-					} 
+					}
 				}
 				System.out.println();
 

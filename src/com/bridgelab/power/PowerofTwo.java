@@ -12,7 +12,7 @@ public class PowerofTwo {
 		exponentValue = sc.nextInt();
 
 		if (exponentValue >= 0 && exponentValue < 31) {
-			int result = (int) Math.pow(2, exponentValue);
+			int result = (int) Math.pow(BASE_VALUE, exponentValue);
 			System.out.println("Power 2 for exponent " + exponentValue + " is : " + result);
 		} else {
 			System.out.println("Enter Exponent value in between 0 to 30");

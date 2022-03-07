@@ -6,11 +6,11 @@ public class LargestNumber {
 	public static void main(String args[]) {
 		int num1, num2, num3;
 		System.out.println("Enter three integers numbers : ");
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
-		num1 = in.nextInt();
-		num2 = in.nextInt();
-		num3 = in.nextInt();
+		num1 = sc.nextInt();
+		num2 = sc.nextInt();
+		num3 = sc.nextInt();
 		
 		if (num1 > num2 && num1 > num3)
 			System.out.println("The largest number is : " + num1);

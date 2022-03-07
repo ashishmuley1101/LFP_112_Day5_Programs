@@ -11,7 +11,6 @@ public class VowelConsonant {
 		Scanner sc = new Scanner(System.in);
 		char inputChar = sc.next().charAt(0);
 
-        char ch = 'z';
 
         switch (inputChar) {
             case 'a':
